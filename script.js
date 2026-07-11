@@ -26,7 +26,7 @@ const products = {
     millets:{
 
         "Finger Millet (Ragi)":{
-            image:"images/ragi.png",
+            image:"ragi.png",
             benefits:[
                 "Rich in Calcium",
                 "High in Fiber",
@@ -37,7 +37,7 @@ const products = {
         },
 
         "Pearl Millet (Sajjalu)":{
-            image:"images/sajjalu.jpeg",
+            image:"sajjalu.jpeg",
             benefits:[
                 "Rich in Iron",
                 "Improves Digestion",
@@ -47,7 +47,7 @@ const products = {
         },
 
         "Foxtail Millet (Korra)":{
-            image:"images/korru.png",
+            image:"korru.png",
             benefits:[
                 "Low Glycemic Index",
                 "Rich in Protein",
@@ -56,7 +56,7 @@ const products = {
         },
 
         "Little Millet (Samalu)":{
-            image:"images/samalu.png",
+            image:"samalu.png",
             benefits:[
                 "High in Antioxidants",
                 "Good for Digestion",
@@ -65,7 +65,7 @@ const products = {
         },
 
         "Sorghum (Jonnalu)":{
-            image:"images/jonnalu.png",
+            image:"jonnalu.png",
             benefits:[
                 "High Fiber",
                 "Rich Protein",
@@ -78,7 +78,7 @@ const products = {
     pulses:{
 
         "Kandulu (Red Gram)":{
-            image:"images/kandulu.png",
+            image:"kandulu.png",
             benefits:[
                 "Rich in Protein",
                 "Improves Muscle Growth",
@@ -89,7 +89,7 @@ const products = {
         },
 
         "Pesalu (Moong Dal)":{
-            image:"images/pesalu.png",
+            image:"pesalu.png",
             benefits:[
                 "Easy to Digest",
                 "High in Protein",
@@ -100,7 +100,7 @@ const products = {
         },
 
         "Minumulu (Urad Dal)":{
-            image:"images/minumulu.png",
+            image:"minumulu.png",
             benefits:[
                 "Rich in Calcium",
                 "Strengthens Bones",
@@ -111,7 +111,7 @@ const products = {
         },
 
         "Senagalu (Bengal Gram)":{
-            image:"images/senagalu.png",
+            image:"senagalu.png",
             benefits:[
                 "High in Fiber",
                 "Rich in Protein",
@@ -122,7 +122,7 @@ const products = {
         },
 
         "Ulavalu (Horse Gram)":{
-            image:"images/ulavalu.png",
+            image:"ulavalu.png",
             benefits:[
                 "Good for Diabetes",
                 "Rich in Iron",
@@ -133,7 +133,7 @@ const products = {
         },
 
         "Alasandalu (Cowpea)":{
-            image:"images/alasandalu.png",
+            image:"alasandalu.png",
             benefits:[
                 "Rich in Fiber",
                 "Heart Healthy",
@@ -148,7 +148,7 @@ const products = {
     snacks:{
 
         "Millet Laddu":{
-            image:"images/laddu.png",
+            image:"laddu.png",
             benefits:[
                 "Healthy Traditional Sweet",
                 "Rich in Fiber",
@@ -159,7 +159,7 @@ const products = {
         },
 
         "Millet Biscuits":{
-            image:"images/biscuit.png",
+            image:"biscuit.png",
             benefits:[
                 "Whole Grain Snack",
                 "Low in Refined Sugar",
@@ -170,7 +170,7 @@ const products = {
         },
 
         "Roasted Millets":{
-            image:"images/roasted.png",
+            image:"roasted.png",
             benefits:[
                 "Crunchy and Delicious",
                 "High in Protein",
@@ -181,7 +181,7 @@ const products = {
         },
 
         "Millet Bars":{
-            image:"images/bars.png",
+            image:"bars.png",
             benefits:[
                 "Instant Energy",
                 "High in Fiber",
