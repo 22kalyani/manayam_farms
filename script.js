@@ -240,7 +240,7 @@ function showDetails(category,product){
     <div class="details-container">
 
         <div class="details-image">
-            <img src="images/${item.image}" alt="${product}">
+            <img src="${item.image}" alt="${product}">
         </div>
 
         <div class="details-content">
