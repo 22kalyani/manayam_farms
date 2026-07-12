@@ -229,50 +229,37 @@ function showCategory(category){
 
 //================ SHOW DETAILS =================//
 
-function showDetails(category,product){
+function showDetails(category, product) {
 
-    const details=document.getElementById("product-details");
+    const details = document.getElementById("product-details");
 
-    const item=products[category][product];
+    const item = products[category][product];
 
-    let html=`
+    details.innerHTML = `
+        <div class="details-container">
 
-    <div class="details-container">
+            <div class="details-image">
+                <img src="${item.image}" alt="${product}" onerror="this.src='logo.jpeg'">
+            </div>
 
-        <div class="details-image">
-            <img src="${item.image}" alt="${product}">
-        </div>
+            <div class="details-content">
 
-        <div class="details-content">
+                <h2>${product}</h2>
 
-            <h2>${product}</h2>
+                <h3>Health Benefits</h3>
 
-            <h3>Health Benefits</h3>
+                <ul>
+                    ${item.benefits.map(benefit => `<li>✔ ${benefit}</li>`).join("")}
+                </ul>
 
-            <ul>
-    `;
-
-    item.benefits.forEach(function(benefit){
-
-        html+=`<li>✔ ${benefit}</li>`;
-
-    });
-
-    html+=`
-
-            </ul>
+            </div>
 
         </div>
-
-    </div>
-
     `;
-
-    details.innerHTML=html;
-
 }
-
 
 //================ DEFAULT =================//
 
-showCategory("millets");
+document.addEventListener("DOMContentLoaded", function () {
+    showCategory("millets");
+});
